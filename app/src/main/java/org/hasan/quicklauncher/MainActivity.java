@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent startIntent = new Intent(getApplicationContext(), SecondActivity.class); //Intent(get_the_applications_Context, its_Class).
                     //^Creating an Intent object called "startIntent". Already made a class/activity already called "SecondActivity"
                 //b) PASSING INFORMATION TO ANOTHER ACTIVITY:
-                startIntent.putExtra("org.hasan.quicklauncher.hello", "Hello World!")
+                startIntent.putExtra("org.hasan.quicklauncher.hello", "Hello World!");
                     //^Can put a lot of extra information in a bundle and send it to the other activity. the other activity can unbundle it and use the info.
                     //Key-Value Pairs: "packageName.nameOfKey" , "value you want to pass"
                 //c) STARTING THE SecondActivity
