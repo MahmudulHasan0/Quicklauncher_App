@@ -13,10 +13,10 @@ PROCESS:
 **Will launch chrome and will display an url.**
 
 PROCESS:
-Will take a string such as "https://www.google.com/" will then turn it into an URL using URI. 
-Will then make an ACTION intent to go outside of the app to perform an action (in this case, it is to open to the url). 
-Will send out a brodcast asking if there are any apps on the android device that can do the action that is being requested (which is opening to the webaddress)
-Will check to see if the response back is a null. if its not a null, then we ask to get the list of apps that can perform the activity.
+* Will take a string such as "https://www.google.com/" will then turn it into an URL using URI. 
+* Will then make an ACTION intent to go outside of the app to perform an action (in this case, it is to open to the url). 
+* Will send out a brodcast asking if there are any apps on the android device that can do the action that is being requested (which is opening to the webaddress)
+* Will check to see if the response back is a null. if its not a null, then we ask to get the list of apps that can perform the activity.
 We finilly start the activity. 
 
 
